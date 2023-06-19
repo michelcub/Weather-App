@@ -50,7 +50,7 @@ function App(){
   
 
   return (
-      <section className={`overflow-hidden bg-[url("./src/assets/images/soleado.jpg")] bg-cover bg-top bg-no-repeat w-sreen h-screen flex items-center justify-end flex-col gap-3 relative`}>
+      <section className={`overflow-hidden bg-[url("./assets/images/soleado.jpg")] bg-cover bg-top bg-no-repeat w-sreen h-screen flex items-center justify-end flex-col gap-3 relative`}>
         <article className=" w-[18rem] h-[8rem] rounded-xl bg-gradient-to-l from-[#183247] to-[#3c647a] flex items-center justify-around shadow-xl">
           <div className="flex">
             <h2 className="text-[5rem] text-gray-200 m-0 p-0">{parseInt(data?.main.temp)}</h2>
