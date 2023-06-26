@@ -75,7 +75,7 @@ function App(){
 
           <NavDay/>
 
-          <div className="flex p-3 h-[9rem] w-full overflow-x-auto flex-nowrap gap-3">
+          <div className="flex p-3 h-[9rem] w-full overflow-x-auto flex-nowrap gap-3 scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-800">
             {
               
             Array.isArray(hoursForecast.hour)?hoursForecast?.hour.map((h,index) =>{

@@ -30,7 +30,7 @@ export const AppProvider = ({children}) => {
         data,
         forecast
     }
-
+    console.log( getApi(geolocation.lat, geolocation.lon))
     const actions = {
         getGeolocation,
         setGeolocation,
