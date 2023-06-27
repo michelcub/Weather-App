@@ -5,9 +5,14 @@ export const getRealTime = () => {
     const year = day.getFullYear()
     const month = day.getMonth()
 
-    console.log(today, year, time)
 
-    return
+
+    return {
+        today,
+        month,
+        year,
+        time
+    }
 }
 
-getRealTime()
+console.log(getRealTime())
