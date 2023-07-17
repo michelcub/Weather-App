@@ -28,8 +28,8 @@ export const Modal = ({data, hoursForecast}) => {
 
           <section className="flex flex-col gap-3 p-4">
             <div className="flex justify-around px-4 text-xl text-gray-300">
-              <p>Max: {parseInt(data?.current?.temp_c)}</p>
-              <p>Min: {parseInt(data?.current?.temp_c)}</p>
+              <p>Direccion del Viento: {String(data?.current?.wind_dir)}</p>
+              <p>Precipitaciones: {parseInt(data?.current?.precip_in)} mm</p>
             </div>
             <div className="flex justify-around px-4 text-xl text-gray-300">
               <p>Viento: {data.current?.wind_kph} km-h</p>
